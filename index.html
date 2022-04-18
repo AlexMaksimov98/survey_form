@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="content">
+        <h1 id="title">Looking for a job?</h1>
+        <p id="description">Fill in and get a job of your dream!</p>
+        <form id="survey-form">
+            <section class="main-info">
+                <p id="name">Your name</p>
+                <input type="text" id="name-label" placeholder="Write your name e.g. David" class="full-width" required>
+                <p id="email">Your Email</p>
+                <input type="email" id="email-label" placeholder="Write your email e.g. email@gmail.com"
+                    class="full-width" required>
+                <p id="age">Your age</p>
+                <input type="number" id="number-label" min="14" max="99" placeholder="Your age e.g. 30"
+                    class="full-width" required>
+                <br>
+            </section>
+            <section class="education">
+                <p id="education">Your degree</p>
+                <select name="select" class="full-width" name="degrees" required>
+                    <option selected>Choose a degree</option>
+                    <option>School degree</option>
+                    <option>College degree</option>
+                    <option>Bachelor degree</option>
+                    <option>Master's degree</option>
+                    <option>PHD</option>
+                    <option>Two or more university degree</option>
+                    <option>No degree</option>
+                </select>
+                <br>
+            </section>
+            <section class="languages">
+                <p>What languages do you speak?</p>
+                <input type="radio" class="radio">
+                <label for="chinese">Chinese</label>
+                <br>
+                <input type="radio" class="radio">
+                <label for="spanish">Spanish</label>
+                <br>
+                <input type="radio" class="radio">
+                <label for="arabic">Arabic</label>
+                <br>
+                <input type="radio" class="radio">
+                <label for="french">French</label>
+                <br>
+                <input type="radio" class="radio">
+                <label for="russian">Russian</label>
+                <br>
+                <input type="radio" class="radio">
+                <label for="other">Other</label>
+                <br>
+                <p>If you choose Other, please fill in other languages you can speak</p>
+                <input type="text" class="full-width">
+            </section>
+            <section class="job-area">
+                <br>
+                <p>What area do you want to work in?</p>
+                <input type="checkbox" class="checkbox" value="it">
+                <label for="it">IT</label>
+                <br>
+                <input type="checkbox" class="checkbox" value="law">
+                <label for="law">Law</label>
+                <br>
+                <input type="checkbox" class="checkbox" value="investment">
+                <label for="investment">Finances and Investment</label>
+                <br>
+                <input type="checkbox" class="checkbox" value="teacher">
+                <label for="teacher">Teaching</label>
+                <br>
+                <input type="checkbox" class="checkbox" value="other">
+                <label for="other">Other</label>
+                <br>
+                <p>If you choose Other, please fill in the area you would like to work in</p>
+                <input type="text" class="full-width">
+            </section>
+            <section class="message">
+                <p>Any questions</p>
+                <textarea maxlength="500" class="full-width"></textarea>
+            </section>
+            <br>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

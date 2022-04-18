@@ -1,0 +1,66 @@
+body {
+    background-color: #22577E;
+    font-family: monospace;
+}
+
+p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.full-width {
+    width: 95%;
+}
+
+.content {
+    background-color: white;
+    margin: 10% 15%;
+    padding: 1.5% 13% 8% 13%;
+}
+
+.radio, .message, .checkbox {
+    margin-bottom: 2%;
+}
+
+#title, #description {
+    text-align: center;
+}
+
+#submit {
+    text-align: center;
+    font-family: monospace;
+    background-color: #82afd6;
+    border-radius: 15px;
+    width: 95%;
+    padding: 1.7%;
+}
+
+#submit:hover {
+    background-color: #94DAFF;
+}
+
+
+@media (max-width: 480px) {
+
+    p {
+        font-size: 20px;
+    }
+
+    .content {
+        margin: 4%;
+        padding: 7%;
+        font-size: 16px;
+    }
+
+    .radio, .checkbox {
+        margin-bottom: 5%;
+    }
+
+    #title {
+        font-size: 30px;
+    }
+
+    #submit {
+        margin-top: 3%;
+    }
+}
